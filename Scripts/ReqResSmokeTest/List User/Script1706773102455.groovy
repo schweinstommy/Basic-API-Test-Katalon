@@ -25,5 +25,5 @@ WS.verifyElementPropertyValue(ResponseUsers, 'data[0].first_name', 'Michael')
 
 SingleUserResponse = WS.sendRequest(findTestObject('RestReqServices/Single User'))
 
-WS.verifyResponseStatusCode(SingleUserResponse, 200)
+WS.verifyResponseStatusCode(SingleUserResponse, 201)
 
